@@ -1,0 +1,36 @@
+{
+  "name": "Rapid",
+  "description": "Angular - Rapid framework in Angular Js",
+  "version": "0.0.0",
+  "keywords": [
+    "angular",
+    "Rapid"
+  ],
+  "author": {
+    "name": "Lorenzo Di Giuseppe"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Loki88/rapid"
+  },
+  "licenses": [
+    {
+      "type": "ISC"
+    }
+  ],
+  "main": [
+    "dist/rapid.js",
+    "dist/rapid.min.js"
+  ],
+  "ignore": [
+    "docs",
+    "test",
+    "CONTRIBUTING.md"
+  ],
+  "dependencies": {
+    "angular": "latest",
+    "angular-mocks" : "latest"
+  },
+  "devDependencies": {
+  }
+}

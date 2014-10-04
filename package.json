@@ -1,0 +1,35 @@
+{
+  "name": "Rapid",
+  "version": "0.0.0",
+  "description": "Native UI library in AngularJs",
+  "main": "Gruntfile.js",
+  "keywords": [
+    "angular",
+    "Rapid"
+  ],
+  "author": "Lorenzo Di Giuseppe",
+  "license": "ISC",
+  "homepage": "https://github.com/Loki88/rapid",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Loki88/rapid"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-compass": "latest",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-copy": "latest",
+    "grunt-contrib-cssmin": "^0.10.0",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-conventional-changelog": "latest",
+    "grunt-karma": "latest",
+    "grunt-ngdocs": "latest",
+    "karma": "^0.12.24",
+    "karma-phantomjs-launcher": "latest",
+    "node-markdown": "latest",
+    "semver": "latest",
+    "shelljs": "latest"
+  }
+}
