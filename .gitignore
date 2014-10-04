@@ -3,7 +3,7 @@ sass-chache/
 *.sublime-workspace
 bower_components/
 node_modules/
-.css/
+/css/
 !build/*
 docs/
 stylesheets/
