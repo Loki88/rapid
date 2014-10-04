@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html ng-app="TransitionApp">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width">
+	<title>Rapid - Transition</title>
+	<link href="../../../build/css/rapid.min.css" />
+	
+</head>
+<body ng-controller="MainCtrl">
+	<div>
+		<button x-transition="flash" x-target="box" x-time="1">Shake</button>
+		<div id="box" style="width: 100px; height:100px; background: black;"></div>
+	</div>
+	<script src="../../../bower_components/angular/angular.min.js"></script>
+	<script src="../../../bower_components/angular-animate/angular-animate.min.js"></script>
+	<script src="../rapid.js"></script>
+	<script src="../transition.js"></script>
+	<script src="./app.js"></script>
+</body>
+</html>

@@ -20,6 +20,8 @@ module.exports = function(grunt) {
 
   grunt.registerTask('build',['concat', 'uglify', 'cssmin']);
 
+  grunt.registerTask('active-watch', ['watch', 'build']);
+
   // Project configuration.
   grunt.initConfig({
     dist: 'build',
